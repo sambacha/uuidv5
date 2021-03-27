@@ -1,0 +1,39 @@
+<div class="container">
+  <br>
+  <div class="panel panel-default">
+    <div class="panel-heading">UUID v5 with <a href="https://github.com/kelektiv/node-uuid">node-uuid</a></div>
+    <div class="panel-body">
+      <form>
+        <div class="form-group">
+          <label for="fnamespace">Namespace</label>
+          <input class="form-control fnamespace" type="text" name="fnamespace" value="8dc079dd-0313-4563-864f-008eb45bf87f" placeholder="XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX">
+        </div>
+        <div class="form-group">
+          <label for="fname">Name</label>
+          <input class="form-control fname" type="text" name="fname" value="kitchen" placeholder="Some random string">
+        </div>
+        <div class="form-group">
+          <label for="fname">Result</label>
+          <div class="output"></div>
+        </div>
+        <input type="submit" class="btn btn-primary submit" value="Create">
+      </form>
+    </div>
+  </div>
+  <br>
+  <div class="panel panel-default">
+    <div class="panel-body">
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Namespace</th>
+            <th>Name</th>
+            <th>UUIDV5</th>
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
