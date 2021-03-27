@@ -1,15 +1,5 @@
 {
-  "name": "manifold-uuid",
+  "name": "generate",
   "version": "1.0.0",
-  "description": "",
-  "bin": "./bin/uuid",
-  "scripts": {
-   "generate": "npx uuid v5 manifold b3bc0db5-401b-439d-8a11-482b542184c6"
-  },
-  "keywords": [],
-  "author": "sam",
-  "license": "ISC",
-  "dependencies": {
-    "uuid": "^8.3.2"
-  }
+  "bin": "./bin/uuid"
 }
