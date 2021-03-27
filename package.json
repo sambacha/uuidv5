@@ -2,7 +2,7 @@
   "name": "manifold-uuid",
   "version": "1.0.0",
   "description": "",
-  "bin": "./index.js",
+  "bin": "./bin/uuid",
   "scripts": {
    "generate": "npx uuid v5 manifold b3bc0db5-401b-439d-8a11-482b542184c6"
   },
